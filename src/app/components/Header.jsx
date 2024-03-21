@@ -2,13 +2,14 @@
  * @Author: Chen HuaKang
  * @Date: 2024-03-18 13:43:57
  * @LastEditors: Chen HuaKang
- * @LastEditTime: 2024-03-21 15:31:08
+ * @LastEditTime: 2024-03-21 17:10:31
  * @Description:
  */
 
 // import { Fragment } from 'react'
 // import { nav, Menu, Transition } from '@headlessui/react';
 // import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
+import Image from 'next/image';
 
 const Header = () => {
   const user = {
@@ -39,7 +40,7 @@ const Header = () => {
         <div className='flex h-16 items-center justify-between'>
           <div className='flex items-center'>
             <div className='flex-shrink-0'>
-              <img
+              <Image
                 className='h-8 w-8'
                 src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500'
                 alt='Your Company'
@@ -82,7 +83,7 @@ const Header = () => {
                   <a className='relative flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800'>
                     <span className='absolute -inset-1.5' />
                     <span className='sr-only'>Open user menu</span>
-                    <img className='h-8 w-8 rounded-full' src={user.imageUrl} alt='' />
+                    <Image className='h-8 w-8 rounded-full' src={user.imageUrl} alt='' />
                   </a>
                 </div>
                 <fragment
@@ -154,7 +155,7 @@ const Header = () => {
         <div className='border-t border-gray-700 pb-3 pt-4'>
           <div className='flex items-center px-5'>
             <div className='flex-shrink-0'>
-              <img className='h-10 w-10 rounded-full' src={user.imageUrl} alt='' />
+              <Image className='h-10 w-10 rounded-full' src={user.imageUrl} alt='' />
             </div>
             <div className='ml-3'>
               <div className='text-base font-medium leading-none text-white'>{user.name}</div>
