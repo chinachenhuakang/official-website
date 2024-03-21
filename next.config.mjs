@@ -8,7 +8,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/life-record",
+  basePath: "/official-website",
   images:{
     unoptimized: true,
   },
