@@ -2,7 +2,7 @@
  * @Author: Chen HuaKang
  * @Date: 2024-03-21 15:39:58
  * @LastEditors: Chen HuaKang
- * @LastEditTime: 2024-03-21 17:11:37
+ * @LastEditTime: 2024-03-22 11:24:41
  * @Description: 
  */
 import Image from 'next/image';
@@ -31,7 +31,7 @@ const TeamSections = () => {
           {people.map((person) => (
             <li key={person.name}>
               <div className="flex items-center gap-x-6">
-                <Image className="h-16 w-16 rounded-full" src={person.imageUrl} alt="" />
+                <Image className="h-16 w-16 rounded-full" src={person.imageUrl} alt="" width={120} height={90} />
                 <div>
                   <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
                   <p className="text-sm font-semibold leading-6 text-indigo-600">{person.role}</p>
