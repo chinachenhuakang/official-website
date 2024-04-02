@@ -2,7 +2,7 @@
  * @Author: Chen HuaKang
  * @Date: 2024-03-18 13:43:57
  * @LastEditors: Chen HuaKang
- * @LastEditTime: 2024-03-29 14:49:05
+ * @LastEditTime: 2024-04-01 14:19:53
  * @Description:
  */
 
@@ -122,11 +122,11 @@ const  Header = ()=> {
             关于我们
           </a>
         </Popover.Group>
-        {/* <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+          {/* <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             Log in <span aria-hidden="true">&rarr;</span>
-          </a>
-        </div> */}
+          </a> */}
+        </div>
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
         <div className="fixed inset-0 z-10" />
@@ -198,14 +198,14 @@ const  Header = ()=> {
                   关于我们
                 </a>
               </div>
-              {/* <div className="py-6">
-                <a
+              <div className="py-6">
+                {/* <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Log in
-                </a>
-              </div> */}
+                </a> */}
+              </div>
             </div>
           </div>
         </Dialog.Panel>

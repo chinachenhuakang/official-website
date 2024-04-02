@@ -2,14 +2,14 @@
  * @Author: Chen HuaKang
  * @Date: 2024-03-21 15:39:58
  * @LastEditors: Chen HuaKang
- * @LastEditTime: 2024-03-22 11:24:41
+ * @LastEditTime: 2024-04-01 14:37:09
  * @Description: 
  */
 import Image from 'next/image';
 const people = [
   {
-    name: 'Leslie Alexander',
-    role: 'Co-Founder / CEO',
+    name: '张三',
+    role: '联合创始人 / 总裁',
     imageUrl:
       'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
   },

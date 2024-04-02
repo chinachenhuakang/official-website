@@ -2,23 +2,23 @@
  * @Author: Chen HuaKang
  * @Date: 2024-03-22 15:08:36
  * @LastEditors: Chen HuaKang
- * @LastEditTime: 2024-03-22 15:18:29
+ * @LastEditTime: 2024-04-01 15:54:28
  * @Description: 
  */
 
 import Image from 'next/image';
 
 const links = [
-  { name: 'Open roles', href: '#' },
-  { name: 'Internship program', href: '#' },
-  { name: 'Our values', href: '#' },
-  { name: 'Meet our leadership', href: '#' },
+  { name: '职能开放', href: '#' },
+  { name: '孵化项目', href: '#' },
+  { name: '价值观', href: '#' },
+  { name: '商务洽谈', href: '#' },
 ]
 const stats = [
-  { name: 'Offices worldwide', value: '12' },
-  { name: 'Full-time colleagues', value: '300+' },
-  { name: 'Hours per week', value: '40' },
-  { name: 'Paid time off', value: 'Unlimited' },
+  { name: '全球办事处', value: '12' },
+  { name: '全职同事', value: '300+' },
+  { name: '每周工作小时数', value: '40' },
+  { name: '带薪休假', value: '无限' },
 ]
 
 const HeaderSections = () => {

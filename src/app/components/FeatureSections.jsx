@@ -2,33 +2,33 @@
  * @Author: Chen HuaKang
  * @Date: 2024-03-21 15:43:11
  * @LastEditors: Chen HuaKang
- * @LastEditTime: 2024-03-21 15:46:46
+ * @LastEditTime: 2024-04-01 16:13:03
  * @Description: 
  */
 import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from '@heroicons/react/24/outline'
 const features = [
   {
-    name: 'Push to deploy',
+    name: '推送部署',
     description:
-      'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
+      '上传后有自动部署及手动部署设置',
     icon: CloudArrowUpIcon,
   },
   {
-    name: 'SSL certificates',
+    name: 'SSL 证书',
     description:
-      'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
+      '需要证书校验对比，多层防护信息安全',
     icon: LockClosedIcon,
   },
   {
-    name: 'Simple queues',
+    name: '简单队列',
     description:
-      'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
+      '队列合理有序进行处理上线',
     icon: ArrowPathIcon,
   },
   {
-    name: 'Advanced security',
+    name: '高级安全性',
     description:
-      'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
+      '保证好发布不被干扰，减少入侵攻击',
     icon: FingerPrintIcon,
   },
 ]
@@ -38,9 +38,9 @@ const FeatureSections = () => {
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</h2>
+          <h2 className="text-base font-semibold leading-7 text-indigo-600">更快地部署</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Everything you need to deploy your app
+            部署应用程序所需的一切
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
             Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
